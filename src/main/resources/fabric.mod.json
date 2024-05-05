@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "infinite-night-vision",
+	"version": "${version}",
+	"name": "Infinite Night Vision",
+	"description": "Adds Infinite Night Vision!",
+	"authors": [
+		"Leclowndu93150"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/infinite-night-vision/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.leclowndu93150.infinitenightvision.InfiniteNightVision"
+		]
+	},
+	"mixins": [
+		"infinite-night-vision.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
