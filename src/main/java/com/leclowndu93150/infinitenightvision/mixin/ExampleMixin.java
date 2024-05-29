@@ -1,6 +1,5 @@
 package com.leclowndu93150.infinitenightvision.mixin;
 
-
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
