@@ -24,8 +24,6 @@ public class Main
                     Minecraft.getInstance().player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION,-1,1));
                 }
             }
-
-
         }
     }
 }
