@@ -3,7 +3,7 @@
 	"id": "infinite-night-vision",
 	"version": "${version}",
 	"name": "Infinite Night Vision",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds Infinite Night Vision to the game!",
 	"authors": [
 		"Me!"
 	],
@@ -24,7 +24,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.21-beta.1",
+		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
