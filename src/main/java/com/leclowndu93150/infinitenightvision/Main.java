@@ -19,9 +19,11 @@ public class Main
         @SubscribeEvent
         public static void onClientTick(ClientTickEvent.Post event) {
             Minecraft minecraft = Minecraft.getInstance();
-            if (minecraft.player != null) {
-                if (!minecraft.player.hasEffect(MobEffects.NIGHT_VISION)) {
-                    Minecraft.getInstance().player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION,-1,1));
+            if(minecraft.level != null){
+                if (minecraft.player != null) {
+                    if (!minecraft.player.hasEffect(MobEffects.NIGHT_VISION)) {
+                        Minecraft.getInstance().player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION,-1,1));
+                    }
                 }
             }
         }
